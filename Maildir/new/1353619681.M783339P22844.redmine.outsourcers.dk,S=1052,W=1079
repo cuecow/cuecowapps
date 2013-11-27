@@ -1,0 +1,27 @@
+Return-Path: <cuecow@localhost>
+X-Original-To: cuecow
+Delivered-To: cuecow@localhost
+Received: by redmine.outsourcers.dk (Postfix, from userid 1020)
+	id BC86610661C; Thu, 22 Nov 2012 22:28:01 +0100 (CET)
+From: root@localhost (Cron Daemon)
+To: cuecow@localhost
+Subject: Cron <cuecow@redmine> wget -O /dev/null http://apps2.cuecow.com/index.php/publishcrone
+Content-Type: text/plain; charset=ANSI_X3.4-1968
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/var/www/cuecow>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=cuecow>
+Message-Id: <20121122212801.BC86610661C@redmine.outsourcers.dk>
+Date: Thu, 22 Nov 2012 22:28:01 +0100 (CET)
+
+--2012-11-22 22:28:01--  http://apps2.cuecow.com/index.php/publishcrone
+Resolving apps2.cuecow.com... 37.188.116.241
+Connecting to apps2.cuecow.com|37.188.116.241|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 19 [text/html]
+Saving to: `/dev/null'
+
+     0K                                                       100% 1.53M=0s
+
+2012-11-22 22:28:01 (1.53 MB/s) - `/dev/null' saved [19/19]
+
