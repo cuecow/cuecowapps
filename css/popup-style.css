@@ -1,0 +1,42 @@
+
+
+
+
+/**************** POPUP ***************/
+.background-popup {
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	background:#000000;
+	border:1px solid #cecece;
+	z-index:99000;
+}
+
+.popup-content {
+	display:none;
+	position:fixed;
+	position:absolute; /* hack for internet explorer 6*/
+	border:none;
+	z-index:999999;
+	font-size:13px;
+	padding:20px;
+	top:58px !important;
+        left: 35px !important;
+}
+.popup-content .close-link {
+	width:16px;
+	height:16px;
+	display:block;
+	right:36px;
+	top:17px;
+	position:absolute;
+	display:block;
+	cursor: pointer;
+}
+
+
+
