@@ -1,0 +1,1 @@
+<img src="<?=base_url();?>images/tempimgs/<?=$bigtempimg[0]['pic_preview'];?>" />
